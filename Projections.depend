@@ -1,0 +1,165 @@
+# depslib dependency file v1.0
+1637333481 source:/home/lukeleontowich/Documents/OpenGl/Projections/src/Camera.cpp
+	"Camera.h"
+
+1638934486 /home/lukeleontowich/Documents/OpenGl/Projections/include/Camera.h
+	<glad/glad.h>
+	<GLFW/glfw3.h>
+	<stb_image.h>
+	<glm/glm.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	<glm/gtc/type_ptr.hpp>
+
+1636907871 /home/lukeleontowich/Documents/OpenGl/Projections/include/stb_image.h
+	"stb_image.h"
+	<stdio.h>
+	<stdlib.h>
+	<stdarg.h>
+	<stddef.h>
+	<stdlib.h>
+	<string.h>
+	<limits.h>
+	<math.h>
+	<stdio.h>
+	<assert.h>
+	<stdint.h>
+	<emmintrin.h>
+	<intrin.h>
+	<arm_neon.h>
+
+1638932440 source:/home/lukeleontowich/Documents/OpenGl/Projections/src/Cube.cpp
+	"Cube.h"
+
+1638932349 /home/lukeleontowich/Documents/OpenGl/Projections/include/Cube.h
+	<glad/glad.h>
+	<GLFW/glfw3.h>
+	<stb_image.h>
+	<glm/glm.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	<glm/gtc/type_ptr.hpp>
+
+1636907871 source:/home/lukeleontowich/Documents/OpenGl/Projections/src/glad.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<glad/glad.h>
+	<windows.h>
+	<winapifamily.h>
+	<dlfcn.h>
+
+1636907871 source:/home/lukeleontowich/Documents/OpenGl/Projections/src/Shader.cpp
+	"Shader.h"
+
+1638934281 /home/lukeleontowich/Documents/OpenGl/Projections/include/Shader.h
+	<glad/glad.h>
+	<GLFW/glfw3.h>
+	<stb_image.h>
+	<glm/glm.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	<glm/gtc/type_ptr.hpp>
+	<iostream>
+	<fstream>
+	<sstream>
+	<cstring>
+
+1636907871 source:/home/lukeleontowich/Documents/OpenGl/Projections/src/stb_image.cpp
+	"stb_image.h"
+
+1637328188 source:/home/lukeleontowich/Documents/OpenGl/Projections/src/Texture.cpp
+	"Texture.h"
+
+1637328137 /home/lukeleontowich/Documents/OpenGl/Projections/include/Texture.h
+	<glad/glad.h>
+	<GLFW/glfw3.h>
+	"stb_image.h"
+	<string>
+	<iostream>
+
+1638933836 source:/home/lukeleontowich/Documents/OpenGl/Projections/main.cpp
+	<glad/glad.h>
+	<GLFW/glfw3.h>
+	"stb_image.h"
+	<glm/glm.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	<glm/gtc/type_ptr.hpp>
+	<iostream>
+	<cmath>
+	<iomanip>
+	<cstdlib>
+	<vector>
+	<utility>
+	"Camera.h"
+	"Shader.h"
+	"Model.h"
+	"AbstractProjectionFactory.h"
+	"OrthogonalProjection.h"
+	"ObliqueProjection.h"
+	"PerspectiveProjection.h"
+
+1637332617 source:/home/lukeleontowich/Documents/OpenGl/Projections/src/Mesh.cpp
+	"Mesh.h"
+
+1638934265 /home/lukeleontowich/Documents/OpenGl/Projections/include/Mesh.h
+	<glad/glad.h>
+	<GLFW/glfw3.h>
+	<stb_image.h>
+	<glm/glm.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	<glm/gtc/type_ptr.hpp>
+	"Shader.h"
+	<string>
+	<vector>
+
+1636907871 source:/home/lukeleontowich/Documents/OpenGl/Projections/src/Model.cpp
+	"Model.h"
+
+1638934272 /home/lukeleontowich/Documents/OpenGl/Projections/include/Model.h
+	<glad/glad.h>
+	<glm/glm.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	<stb_image.h>
+	<assimp/Importer.hpp>
+	<assimp/scene.h>
+	<assimp/postprocess.h>
+	<string>
+	<fstream>
+	<sstream>
+	<iostream>
+	<map>
+	<vector>
+	"Mesh.h"
+
+1638762835 source:/home/lukeleontowich/Documents/OpenGl/Projections/src/AbstractProjectionFactory.cpp
+	"AbstractProjectionFactory.h"
+
+1638934654 /home/lukeleontowich/Documents/OpenGl/Projections/include/AbstractProjectionFactory.h
+	<glm/glm.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	<glm/gtc/type_ptr.hpp>
+	<iostream>
+
+1638929673 source:/home/lukeleontowich/Documents/OpenGl/Projections/src/PerspectiveOnePointFactory.cpp
+	"PerspectiveOnePointFactory.h"
+
+1638846508 /home/lukeleontowich/Documents/OpenGl/Projections/include/PerspectiveOnePointFactory.h
+	"AbstractProjectionFactory.h"
+
+1638846498 source:/home/lukeleontowich/Documents/OpenGl/Projections/src/OrthogonalProjection.cpp
+	"OrthogonalProjection.h"
+
+1638934712 /home/lukeleontowich/Documents/OpenGl/Projections/include/OrthogonalProjection.h
+	"AbstractProjectionFactory.h"
+
+1638846459 source:/home/lukeleontowich/Documents/OpenGl/Projections/src/ObliqueProjection.cpp
+	"ObliqueProjection.h"
+
+1638934636 /home/lukeleontowich/Documents/OpenGl/Projections/include/ObliqueProjection.h
+	<cmath>
+	"AbstractProjectionFactory.h"
+
+1638931030 source:/home/lukeleontowich/Documents/OpenGl/Projections/src/PerspectiveProjection.cpp
+	"PerspectiveProjection.h"
+
+1638934748 /home/lukeleontowich/Documents/OpenGl/Projections/include/PerspectiveProjection.h
+	"AbstractProjectionFactory.h"
+

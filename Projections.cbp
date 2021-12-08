@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Projections" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Projections" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Projections" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Linker>
+			<Add library="glfw" />
+			<Add library="dl" />
+			<Add library="../../../../../usr/lib/x86_64-linux-gnu/libassimp.so.5" />
+		</Linker>
+		<Unit filename="include/AbstractProjectionFactory.h" />
+		<Unit filename="include/Camera.h" />
+		<Unit filename="include/Cube.h" />
+		<Unit filename="include/Mesh.h" />
+		<Unit filename="include/Model.h" />
+		<Unit filename="include/ObliqueProjection.h" />
+		<Unit filename="include/OrthogonalProjection.h" />
+		<Unit filename="include/PerspectiveOnePointFactory.h" />
+		<Unit filename="include/PerspectiveProjection.h" />
+		<Unit filename="include/Shader.h" />
+		<Unit filename="include/Texture.h" />
+		<Unit filename="include/stb_image.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="shaders/cube.fs" />
+		<Unit filename="shaders/cube.vs" />
+		<Unit filename="shaders/object.fs" />
+		<Unit filename="shaders/object.vs" />
+		<Unit filename="src/AbstractProjectionFactory.cpp" />
+		<Unit filename="src/Camera.cpp" />
+		<Unit filename="src/Cube.cpp" />
+		<Unit filename="src/Mesh.cpp" />
+		<Unit filename="src/Model.cpp" />
+		<Unit filename="src/ObliqueProjection.cpp" />
+		<Unit filename="src/OrthogonalProjection.cpp" />
+		<Unit filename="src/PerspectiveOnePointFactory.cpp" />
+		<Unit filename="src/PerspectiveProjection.cpp" />
+		<Unit filename="src/Shader.cpp" />
+		<Unit filename="src/Texture.cpp" />
+		<Unit filename="src/glad.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/stb_image.cpp" />
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>
