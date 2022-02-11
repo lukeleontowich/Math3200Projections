@@ -1,3 +1,3 @@
-# Geometry 3200 Projections
+# Geometry Math 3200 Projections
 
 
